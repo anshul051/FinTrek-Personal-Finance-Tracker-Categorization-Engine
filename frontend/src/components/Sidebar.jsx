@@ -51,7 +51,7 @@ const Sidebar = () => {
         </div>
 
         {/* === NAVIGATION === */}
-        <div className="flex-1 flex flex-col gap-2 py-4 overflow-y-auto overflow-x-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
+        <div className="flex-1 flex flex-col gap-2 py-4 overflow-y-auto overflow-x-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] ">
           {navItems.map((item, index) => (
             <div
               key={index}
